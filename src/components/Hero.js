@@ -1,184 +1,82 @@
-
-
-// // // import Mypic from "./Mypic.jpeg";
-
-// // // export default function Hero() {
-// // //   return (
-// // //     <section
-// // //       id="home"
-// // //       className="flex flex-col-reverse md:flex-row items-center justify-between min-h-screen px-6 md:px-20 bg-gradient-to-br from-blue-50 to-white pt-24"
-// // //     >
-// // //       {/* LEFT CONTENT */}
-// // //       <div className="max-w-xl text-center md:text-left">
-// // //         <p className="text-gray-600 text-lg">Hi, I am</p>
-// // //         <h1 className="text-4xl md:text-5xl font-extrabold text-gray-900">
-// // //           Mansoor Ali
-// // //         </h1>
-// // //         <h2 className="text-2xl md:text-3xl text-blue-600 font-semibold mt-2">
-// // //           A React Native Developer
-// // //         </h2>
-// // //         <p className="mt-6 text-gray-700 leading-relaxed">
-// // //           I am a React Native and React.js developer with AI features
-// // //           implementation. I build apps that solve real-world problems with
-// // //           elegant and scalable solutions.
-// // //         </p>
-
-// // //         <button className="mt-8 px-8 py-3 bg-blue-600 text-white rounded-full shadow-lg hover:bg-blue-700 transition-transform transform hover:scale-105">
-// // //           Get in Touch
-// // //         </button>
-// // //       </div>
-
-// // //       {/* RIGHT IMAGE WITH ROTATING BORDER */}
-// // //       <div className="relative mt-12 md:mt-0 flex justify-center items-center">
-// // //         {/* Rotating border */}
-// // //         <div className="absolute w-44 h-44 md:w-80 md:h-80 rounded-full border-2 border-transparent border-t-blue-500 border-r-blue-400 animate-spin-slow"></div>
-
-// // //         {/* Profile Image */}
-// // //         <img
-// // //           src={Mypic}
-// // //           alt="Hero"
-// // //           className="relative w-40 h-40 md:w-72 md:h-72 rounded-full object-cover border-2 border-white shadow-xl"
-// // //         />
-// // //       </div>
-// // //     </section>
-// // //   );
-// // // }
-
-
-// // import Mypic from "./Mypic.jpeg";
-
-// // export default function Hero() {
-// //   return (
-// //     <section
-// //       id="home"
-// //       className="flex flex-col-reverse md:flex-row items-center justify-between min-h-screen px-6 md:px-20 bg-gradient-to-br from-blue-50 to-white pt-24"
-// //     >
-// //       {/* LEFT CONTENT */}
-// //       <div className="max-w-xl text-center md:text-left">
-// //         <p className="text-gray-600 text-lg">Hi, I am</p>
-// //         <h1 className="text-4xl md:text-5xl font-extrabold text-gray-900">
-// //           Mansoor Ali
-// //         </h1>
-// //         <h2 className="text-2xl md:text-3xl text-blue-600 font-semibold mt-2">
-// //           A React Native Developer
-// //         </h2>
-// //         <p className="mt-6 text-gray-700 leading-relaxed">
-// //           I am a React Native and React.js developer with AI features
-// //           implementation. I build apps that solve real-world problems with
-// //           elegant and scalable solutions.
-// //         </p>
-
-// //         <button className="mt-8 px-8 py-3 bg-blue-600 text-white rounded-full shadow-lg hover:bg-blue-700 transition-transform transform hover:scale-105">
-// //           Get in Touch
-// //         </button>
-// //       </div>
-
-// //       {/* RIGHT IMAGE WITH ROTATING RING */}
-// //       <div className="relative mt-12 md:mt-0 flex justify-center items-center">
-// //         {/* Rotating ring (conic gradient spinner) */}
-// //         <div className="absolute w-48 h-48 md:w-80 md:h-80 rounded-full animate-spin-slow">
-// //           <div className="w-full h-full rounded-full border-[3px] border-transparent"
-// //             style={{
-// //               background: "conic-gradient(#2563eb 0deg, transparent 90deg, #2563eb 180deg, transparent 270deg, #2563eb 360deg)",
-// //               WebkitMask: "radial-gradient(farthest-side, transparent calc(100% - 3px), black 100%)",
-// //               mask: "radial-gradient(farthest-side, transparent calc(100% - 3px), black 100%)"
-// //             }}
-// //           ></div>
-// //         </div>
-
-// //         {/* Profile Image */}
-// //         <img
-// //           src={Mypic}
-// //           alt="Hero"
-// //           className="relative w-40 h-40 md:w-72 md:h-72 rounded-full object-cover border-2 border-white shadow-xl"
-// //         />
-// //       </div>
-// //     </section>
-// //   );
-// // }
-
-// import Mypic from "./Mypic.jpeg";
-
-// export default function Hero() {
-//   return (
-//     <section
-//       id="home"
-//       className="flex flex-col-reverse md:flex-row items-center justify-between min-h-screen px-6 md:px-20 bg-gradient-to-br from-blue-50 to-white pt-24"
-//     >
-//       {/* LEFT CONTENT */}
-//       <div className="max-w-xl text-center md:text-left">
-//         <p className="text-gray-600 text-lg">Hi, I am</p>
-//         <h1 className="text-4xl md:text-5xl font-extrabold text-gray-900">
-//           Mansoor Ali
-//         </h1>
-//         <h2 className="text-2xl md:text-3xl text-blue-600 font-semibold mt-2">
-//           A React Native Developer
-//         </h2>
-//         <p className="mt-6 text-gray-700 leading-relaxed">
-//           I am a React Native and React.js developer with AI features
-//           implementation. I build apps that solve real-world problems with
-//           elegant and scalable solutions.
-//         </p>
-
-//         <button className="mt-8 px-8 py-3 bg-blue-600 text-white rounded-full shadow-lg hover:bg-blue-700 transition-transform transform hover:scale-105">
-//           Get in Touch
-//         </button>
-//       </div>
-
-//       {/* RIGHT IMAGE WITH CLEAR ROTATING BORDER */}
-//       <div className="relative mt-12 md:mt-0 flex justify-center items-center">
-//         {/* Rotating border (clear + visible) */}
-//         <div className="absolute w-48 h-48 md:w-80 md:h-80 rounded-full border-4 border-blue-600 border-t-transparent animate-spin-slow"></div>
-
-//         {/* Profile Image */}
-//         <img
-//           src={Mypic}
-//           alt="Hero"
-//           className="relative w-40 h-40 md:w-72 md:h-72 rounded-full object-cover border-2 border-white shadow-xl"
-//         />
-//       </div>
-//     </section>
-//   );
-// }
+import { motion } from "framer-motion";
 import Mypic from "./Mypic.jpeg";
 
 export default function Hero() {
   return (
     <section
       id="home"
-      className="flex flex-col-reverse md:flex-row items-center justify-between min-h-screen px-6 md:px-20 bg-gradient-to-br from-blue-50 to-white pt-24"
+      className="min-h-screen bg-gradient-to-br from-blue-50 via-white to-indigo-50 flex items-center justify-center px-6 sm:px-10 lg:px-20 py-24"
     >
-      {/* LEFT CONTENT */}
-      <div className="max-w-xl text-center md:text-left">
-        <p className="text-gray-600 text-lg">Hi, I am</p>
-        <h1 className="text-4xl md:text-5xl font-extrabold text-gray-900">
-          Isra Vistro
-        </h1>
-        <h2 className="text-2xl md:text-3xl text-blue-600 font-semibold mt-2">
-          Graphic Designer || Professsional Social Media Desginer
-        </h2>
-        <p className="mt-6 text-gray-700 leading-relaxed">
-          Detail-oriented Graphic Designer with experience in designing premium social media posts and promotional materials. Skilled in layout design, color theory, and typography. Passionate about delivering clean, modern, and luxury-themed visuals that align with brand goals. Proficient in Canva and Adobe Photoshop.
-        </p>
+      <div className="max-w-7xl w-full flex flex-col-reverse lg:flex-row items-center justify-between gap-16">
 
-        <button className="mt-8 px-8 py-3 bg-blue-600 text-white rounded-full shadow-lg hover:bg-blue-700 transition-transform transform hover:scale-105">
-          Get in Touch
-        </button>
-      </div>
+        {/* ================= LEFT CONTENT ================= */}
+        <motion.div
+          initial={{ opacity: 0, x: -80 }}
+          animate={{ opacity: 1, x: 0 }}
+          transition={{ duration: 0.8 }}
+          className="flex-1 text-center lg:text-left"
+        >
+          <p className="text-gray-500 text-lg mb-2">
+            Hi, I am
+          </p>
 
-      {/* RIGHT IMAGE WITH ROTATING DASHED BORDER */}
-      <div className="relative mt-12 md:mt-0 flex justify-center items-center">
-        {/* Rotating Dashed Ring */}
-        <div className="absolute w-52 h-52 md:w-80 md:h-80 rounded-full border-4 border-blue-500 border-dashed animate-spin-fast"></div>
+          <h1 className="text-4xl sm:text-5xl lg:text-6xl font-extrabold text-gray-900 leading-tight">
+            Isra Vistro
+          </h1>
 
-        {/* <div className="absolute w-52 h-52 md:w-80 md:h-80 rounded-full border-4 border-blue-500 border-dashed animate-spin-slow"></div> */}
+          <h2 className="mt-4 text-xl sm:text-2xl lg:text-3xl font-semibold text-blue-600 leading-relaxed">
+            Graphic Designer <br className="sm:hidden" />
+            Professional Social Media Designer
+          </h2>
 
-        {/* Profile Image */}
-        <img
-          src={Mypic}
-          alt="Hero"
-          className="relative w-40 h-40 md:w-72 md:h-72 rounded-full object-cover border-2 border-white shadow-xl"
-        />
+          <p className="mt-6 text-gray-600 text-base sm:text-lg leading-8 max-w-xl mx-auto lg:mx-0">
+            Detail-oriented Graphic Designer with experience in designing
+            premium social media posts, promotional materials, branding, and
+            luxury visual identities. Skilled in Canva, Adobe Photoshop,
+            typography, color theory, and layout design to create impactful
+            visuals that strengthen brands and engage audiences.
+          </p>
+
+          <div className="mt-8 flex flex-col sm:flex-row justify-center lg:justify-start gap-4">
+            <a href="#contact">
+              <button className="px-8 py-3 rounded-full bg-blue-600 text-white font-semibold shadow-lg hover:bg-blue-700 hover:scale-105 transition duration-300">
+                Get in Touch
+              </button>
+            </a>
+
+            <a href="#testimonials">
+              <button className="px-8 py-3 rounded-full border-2 border-blue-600 text-blue-600 font-semibold hover:bg-blue-600 hover:text-white transition duration-300">
+                View Portfolio
+              </button>
+            </a>
+          </div>
+        </motion.div>
+
+        {/* ================= RIGHT IMAGE ================= */}
+
+        <motion.div
+          initial={{ opacity: 0, x: 80 }}
+          animate={{ opacity: 1, x: 0 }}
+          transition={{ duration: 0.8 }}
+          className="flex-1 flex justify-center"
+        >
+          <div className="relative flex items-center justify-center">
+
+            {/* Outer Rotating Circle */}
+            <div className="absolute w-64 h-64 sm:w-72 sm:h-72 lg:w-[420px] lg:h-[420px] rounded-full border-[5px] border-blue-500 border-dashed animate-spin"></div>
+
+            {/* Middle Circle */}
+            <div className="absolute w-56 h-56 sm:w-64 sm:h-64 lg:w-[370px] lg:h-[370px] rounded-full bg-blue-100 opacity-40 blur-2xl"></div>
+
+            {/* Image */}
+            <img
+              src={Mypic}
+              alt="Isra Vistro"
+              className="relative w-52 h-52 sm:w-64 sm:h-64 lg:w-[330px] lg:h-[330px] rounded-full object-cover border-8 border-white shadow-2xl"
+            />
+          </div>
+        </motion.div>
+
       </div>
     </section>
   );
