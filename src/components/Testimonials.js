@@ -7,8 +7,8 @@ import SocialApp1 from "./SocialApp1.jpeg"
 
 
 export default function Testimonials() {
-  const [selectedProject, setSelectedProject] = useState(null);
 
+  const [selectedProject] = useState(null);
   const projects = [
     {
       title: "Project: Eid Promotional Poster - Beauty Salon  ",
