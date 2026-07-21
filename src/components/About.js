@@ -1,6 +1,7 @@
 import { motion } from "framer-motion";
-import { Download, Mail } from "lucide-react"; // icons for buttons
-import Mansoor from "./Mansoor.jpg"
+import { Download, Mail } from "lucide-react";
+import Mansoor from "./Mansoor.jpeg";
+
 export default function About() {
   return (
     <section
@@ -12,6 +13,7 @@ export default function About() {
         initial={{ opacity: 0, x: -50 }}
         whileInView={{ opacity: 1, x: 0 }}
         transition={{ duration: 0.6 }}
+        viewport={{ once: true }}
         className="md:w-1/2 flex justify-center"
       >
         <div className="relative">
@@ -31,50 +33,57 @@ export default function About() {
         initial={{ opacity: 0, x: 50 }}
         whileInView={{ opacity: 1, x: 0 }}
         transition={{ duration: 0.6 }}
+        viewport={{ once: true }}
         className="md:w-1/2 text-center md:text-left"
       >
         {/* Small Heading */}
-        <p className="text-blue-600 font-semibold tracking-wide uppercase mb-2 text-sm md:text-base">
-          About
+        <p className="text-blue-600 font-semibold tracking-[3px] uppercase mb-2 text-sm md:text-base">
+          About Me
         </p>
 
         {/* Main Heading */}
         <h1 className="text-3xl sm:text-4xl lg:text-5xl font-extrabold bg-gradient-to-r from-blue-600 to-indigo-600 bg-clip-text text-transparent mb-6 leading-tight">
-          About Me
+          Creative Graphic Designer
         </h1>
 
         {/* Description */}
-        <p className="text-gray-700 leading-relaxed text-base sm:text-lg mb-4 font-[Inter]">
-          I am a Motivated individual who loves learning new
-          skills. With a strong interest in Wesbite Development and  and Artificial Intelligence, I enjoy
-          solving problems, working independently, and always strive to grow
-          both personally and professionally.
+        <p className="text-gray-700 leading-relaxed text-base sm:text-lg mb-5 font-[Inter]">
+          I'm a passionate  <span className="font-semibold text-blue-600">Graphic Designer </span>
+          dedicated to creating visually compelling designs that help brands
+          communicate their message with clarity and creativity. I specialize
+          in designing professional logos, brand identities, social media
+          creatives, posters, flyers, brochures, and marketing materials that
+          leave a lasting impression.
         </p>
+
+      
+
         <p className="text-gray-700 leading-relaxed text-base sm:text-lg font-[Inter]">
-          I enjoy exploring new ideas and turning them into practical solutions.
-          My goal is to keep improving myself and make a positive impact through
-        Web App Development.
+          I continuously explore new design trends, color theory, typography,
+          and visual storytelling to deliver creative solutions that strengthen
+          brand identity and engage audiences across digital and print
+          platforms.
         </p>
 
         {/* CTA Buttons */}
         <div className="mt-8 flex flex-col sm:flex-row gap-4 sm:gap-6 justify-center md:justify-start">
-          {/* Download CV Button */}
+          {/* Download CV */}
           <a
-            href="/Ubaida_gul_Cv.pdf" // <- apna CV file yahan dalna (public folder ma)
+            href="/Isra_cv.pdf"
             download
-            className="inline-flex items-center gap-2 px-6 sm:px-8 py-3 bg-gradient-to-r from-indigo-600 to-purple-600 text-white rounded-full shadow-lg hover:from-indigo-700 hover:to-purple-700 transition-transform transform hover:scale-105 font-medium text-sm sm:text-base"
+            className="inline-flex items-center justify-center gap-2 px-6 sm:px-8 py-3 bg-gradient-to-r from-indigo-600 to-purple-600 text-white rounded-full shadow-lg hover:from-indigo-700 hover:to-purple-700 transition-all duration-300 hover:scale-105 font-medium text-sm sm:text-base"
           >
             <Download className="w-5 h-5" />
             Download CV
           </a>
 
-          {/* Contact Button */}
+          {/* Contact */}
           <a
             href="#contact"
-            className="inline-flex items-center gap-2 px-6 sm:px-8 py-3 bg-gradient-to-r from-blue-600 to-indigo-600 text-white rounded-full shadow-lg hover:from-blue-700 hover:to-indigo-700 transition-transform transform hover:scale-105 font-medium text-sm sm:text-base"
+            className="inline-flex items-center justify-center gap-2 px-6 sm:px-8 py-3 bg-gradient-to-r from-blue-600 to-indigo-600 text-white rounded-full shadow-lg hover:from-blue-700 hover:to-indigo-700 transition-all duration-300 hover:scale-105 font-medium text-sm sm:text-base"
           >
             <Mail className="w-5 h-5" />
-            Let’s Connect
+            Let's Connect
           </a>
         </div>
       </motion.div>

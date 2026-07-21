@@ -136,7 +136,7 @@ export default function Contact() {
         {/* Copyright */}
         <p className="text-gray-500 text-sm">
           © {new Date().getFullYear()} Developed by  {" "}
-          <span className="font-semibold text-gray-700">Ubaida Gul </span>. All rights reserved.
+          <span className="font-semibold text-gray-700">Isra Vistro </span>. All rights reserved.
         </p>
       </footer>
     </section>

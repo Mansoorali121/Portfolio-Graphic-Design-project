@@ -140,7 +140,7 @@
 //     </section>
 //   );
 // }
-import Mypic from "./Mypic.jpg";
+import Mypic from "./Mypic.jpeg";
 
 export default function Hero() {
   return (
@@ -152,15 +152,13 @@ export default function Hero() {
       <div className="max-w-xl text-center md:text-left">
         <p className="text-gray-600 text-lg">Hi, I am</p>
         <h1 className="text-4xl md:text-5xl font-extrabold text-gray-900">
-          Ubaida Gul
+          Isra Vistro
         </h1>
         <h2 className="text-2xl md:text-3xl text-blue-600 font-semibold mt-2">
-          A React Js Developer
+          Graphic Designer || Professsional Social Media Desginer
         </h2>
         <p className="mt-6 text-gray-700 leading-relaxed">
-          I am a React  React.js developer with AI features
-          implementation. I build Web apps  that solve real-world problems with
-          elegant and scalable solutions.
+          Detail-oriented Graphic Designer with experience in designing premium social media posts and promotional materials. Skilled in layout design, color theory, and typography. Passionate about delivering clean, modern, and luxury-themed visuals that align with brand goals. Proficient in Canva and Adobe Photoshop.
         </p>
 
         <button className="mt-8 px-8 py-3 bg-blue-600 text-white rounded-full shadow-lg hover:bg-blue-700 transition-transform transform hover:scale-105">
