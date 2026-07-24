@@ -69,7 +69,7 @@ export default function Testimonials() {
          projectImages:[Sign,Sign,Sign],
     },
     {
-      title: "Personal Logo Design ",
+      title: "Personal name Logo Design ",
       feedback:
         " Designed a clean and modern personal logo in Adobe Illustrator to represent my professional identity. The logo reflects simplicity, creativity, and a strong visual brand through a balanced composition and minimal design approach. It was created with scalability and versatility in mind, making it suitable for use across portfolios, resumes, social media, and professional branding materials.",
         
