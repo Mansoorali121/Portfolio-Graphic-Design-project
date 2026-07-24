@@ -4,6 +4,9 @@ import { motion } from "framer-motion";
 import Whatsapp from "./Whatsapp.jpeg";
 import Ecommerce from "./Ecommerce.jpeg";
 import SocialApp1 from "./SocialApp1.jpeg";
+import Salon from "./Salon.jpeg";
+import Doctor from "./Doctor.jpeg";
+
 
 export default function Testimonials() {
   const [selectedProject, setSelectedProject] = useState(null);
@@ -26,6 +29,18 @@ export default function Testimonials() {
       feedback:
         "Designed a bold promotional burger poster using black, yellow, and grey colors with modern typography and a strong visual hierarchy.",
       projectImages: [SocialApp1, SocialApp1, SocialApp1],
+    },
+     {
+      title: "Salon Logo Desgign",
+      feedback:
+        "A premium Adobe Illustrator-style vector logo designed for Isra Alizy Beauty Salon. The logo features an elegant IA monogram, a graceful female silhouette, and luxurious black and gold colors, symbolizing beauty, elegance, confidence, and professionalism. Its clean vector design makes it ideal for branding, signage, business cards, packaging, uniforms, and social media.",
+         projectImages: [Salon,Salon,Salon],
+    },
+     {
+      title: "Docttor's style Logo Desgign",
+      feedback:
+        "This logo was professionally designed in a clean Adobe Illustrator-style vector format, featuring a modern AV monogram with pharmacy and medical elements. Its scalable vector design ensures high quality for print, branding, business cards, signage, and digital use.",
+         projectImages: [Doctor,Doctor,Doctor],
     },
   ];
 
