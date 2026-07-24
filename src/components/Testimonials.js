@@ -6,6 +6,9 @@ import Ecommerce from "./Ecommerce.jpeg";
 import SocialApp1 from "./SocialApp1.jpeg";
 import Salon from "./Salon.jpeg";
 import Doctor from "./Doctor.jpeg";
+import Father from "./Father.jpeg";
+import FYP from "./FYP.jpeg"
+
 
 
 export default function Testimonials() {
@@ -41,6 +44,19 @@ export default function Testimonials() {
       feedback:
         "This logo was professionally designed in a clean Adobe Illustrator-style vector format, featuring a modern AV monogram with pharmacy and medical elements. Its scalable vector design ensures high quality for print, branding, business cards, signage, and digital use.",
          projectImages: [Doctor,Doctor,Doctor],
+    },
+     {
+      title: "IV3 Wheat Variety Logo Design",
+      feedback:
+        "This logo was professionally designed in a clean Adobe Illustrator-style  his logo represents IV_3 VARIETY, combining tradition, innovation, and agricultural excellence in a simple and meaningful design. It features a professional portrait of Imdad Vistro to honor the founder and reflect the trust, dedication, and legacy behind the variety. Agricultural elements such as wheat ears, crop fields, and DNA helixes symbolize quality crop breeding, scientific advancement, and a strong connection to farming.",
+         projectImages: [Father,Father,Father],
+    },
+     {
+      title: "FYP Project Poster Design",
+      feedback:
+        "Designed a modern and minimalist event poster for the IT Department Final Year Project (FYP) Seminar. The design follows a clean Adobe Illustrator-inspired style, featuring a balanced layout, bold typography, geometric elements, and technology-themed vector graphics. The composition highlights innovation and professionalism while maintaining excellent visual hierarchy and readability. The blue and white color palette creates a modern academic identity, making the poster suitable for university seminars, project exhibitions, and technology events,  ",
+        
+         projectImages:[FYP,FYP,FYP],
     },
   ];
 
