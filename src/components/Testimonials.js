@@ -8,6 +8,9 @@ import Salon from "./Salon.jpeg";
 import Doctor from "./Doctor.jpeg";
 import Father from "./Father.jpeg";
 import FYP from "./FYP.jpeg"
+import Sign from "./Sign.jpeg";
+import namelogo from "./namelogo.png"
+
 
 
 
@@ -52,11 +55,25 @@ export default function Testimonials() {
          projectImages: [Father,Father,Father],
     },
      {
-      title: "FYP Project Poster Design",
+      title: "FYP Seminar Poster Design",
       feedback:
         "Designed a modern and minimalist event poster for the IT Department Final Year Project (FYP) Seminar. The design follows a clean Adobe Illustrator-inspired style, featuring a balanced layout, bold typography, geometric elements, and technology-themed vector graphics. The composition highlights innovation and professionalism while maintaining excellent visual hierarchy and readability. The blue and white color palette creates a modern academic identity, making the poster suitable for university seminars, project exhibitions, and technology events,  ",
         
          projectImages:[FYP,FYP,FYP],
+    },
+    {
+      title: "FYP Project Poster Design",
+      feedback:
+        " Designed a clean and engaging Adobe Illustrator graphic page for my Sign Language Recognition project. The design visually represents the project's purpose of improving communication between deaf and hearing individuals through AI and computer vision. It combines modern visuals, meaningful icons, and a professional layout to effectively showcase the project's concept and innovation.",
+        
+         projectImages:[Sign,Sign,Sign],
+    },
+    {
+      title: "Personal Logo Design ",
+      feedback:
+        " Designed a clean and modern personal logo in Adobe Illustrator to represent my professional identity. The logo reflects simplicity, creativity, and a strong visual brand through a balanced composition and minimal design approach. It was created with scalability and versatility in mind, making it suitable for use across portfolios, resumes, social media, and professional branding materials.",
+        
+         projectImages:[namelogo,namelogo,namelogo],
     },
   ];
 
